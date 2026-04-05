@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11626.88 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondoManagerApp", "CondoManagerApp\CondoManagerApp.csproj", "{CA55D608-4158-467B-B68A-14EDBF1E2012}"
 EndProject
@@ -12,6 +12,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condo.Person.API", "Person\Condo.Person.API.csproj", "{37C4C17C-64C9-4705-804D-F0C31A63DD19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condo.Documents.API", "Documents\Condo.Documents.API.csproj", "{8C6C6A4B-A1AD-4941-8885-0224F4668680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "Notifications\Notifications.csproj", "{381B72CC-DA4E-412B-89DA-DB2DA03FCEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expense", "Expense\Expense.csproj", "{838D3CE5-DB67-42EE-BB5D-67F39315B072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invoice", "Invoice\Invoice.csproj", "{4D262BA1-5990-495A-BE4A-079D30E7127E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments", "Payments\Payments.csproj", "{4DFCB00A-4459-41B1-974B-251BB5BAE1DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{8C6C6A4B-A1AD-4941-8885-0224F4668680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C6C6A4B-A1AD-4941-8885-0224F4668680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C6C6A4B-A1AD-4941-8885-0224F4668680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381B72CC-DA4E-412B-89DA-DB2DA03FCEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381B72CC-DA4E-412B-89DA-DB2DA03FCEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381B72CC-DA4E-412B-89DA-DB2DA03FCEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381B72CC-DA4E-412B-89DA-DB2DA03FCEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838D3CE5-DB67-42EE-BB5D-67F39315B072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838D3CE5-DB67-42EE-BB5D-67F39315B072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838D3CE5-DB67-42EE-BB5D-67F39315B072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838D3CE5-DB67-42EE-BB5D-67F39315B072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D262BA1-5990-495A-BE4A-079D30E7127E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D262BA1-5990-495A-BE4A-079D30E7127E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D262BA1-5990-495A-BE4A-079D30E7127E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D262BA1-5990-495A-BE4A-079D30E7127E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFCB00A-4459-41B1-974B-251BB5BAE1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFCB00A-4459-41B1-974B-251BB5BAE1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFCB00A-4459-41B1-974B-251BB5BAE1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFCB00A-4459-41B1-974B-251BB5BAE1DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
